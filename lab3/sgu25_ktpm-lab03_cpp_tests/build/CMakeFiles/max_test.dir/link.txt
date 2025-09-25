@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/max_test.dir/tests/max_test.cpp.o -o max_test  lib/libgtest_main.a libmylib.a lib/libgtest.a 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmylib.a CMakeFiles/mylib.dir/src/lib/math_lib.cpp.o CMakeFiles/mylib.dir/src/lib/algebra.cpp.o CMakeFiles/mylib.dir/src/lib/logger.cpp.o
+/usr/bin/ranlib libmylib.a

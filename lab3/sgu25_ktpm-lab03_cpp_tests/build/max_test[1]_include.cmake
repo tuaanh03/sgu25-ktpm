@@ -1,0 +1,5 @@
+if(EXISTS "/workspaces/sgu25-ktpm/lab3/sgu25_ktpm-lab03_cpp_tests/build/max_test[1]_tests.cmake")
+  include("/workspaces/sgu25-ktpm/lab3/sgu25_ktpm-lab03_cpp_tests/build/max_test[1]_tests.cmake")
+else()
+  add_test(max_test_NOT_BUILT max_test_NOT_BUILT)
+endif()

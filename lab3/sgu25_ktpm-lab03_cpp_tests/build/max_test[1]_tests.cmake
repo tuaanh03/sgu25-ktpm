@@ -1,0 +1,7 @@
+add_test([=[FindMaxTest.DifferentValues]=]  /workspaces/sgu25-ktpm/lab3/sgu25_ktpm-lab03_cpp_tests/build/max_test [==[--gtest_filter=FindMaxTest.DifferentValues]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[FindMaxTest.DifferentValues]=]  PROPERTIES WORKING_DIRECTORY /workspaces/sgu25-ktpm/lab3/sgu25_ktpm-lab03_cpp_tests/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[FindMaxTest.EqualValues]=]  /workspaces/sgu25-ktpm/lab3/sgu25_ktpm-lab03_cpp_tests/build/max_test [==[--gtest_filter=FindMaxTest.EqualValues]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[FindMaxTest.EqualValues]=]  PROPERTIES WORKING_DIRECTORY /workspaces/sgu25-ktpm/lab3/sgu25_ktpm-lab03_cpp_tests/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[FindMaxTest.TwoEqualMax]=]  /workspaces/sgu25-ktpm/lab3/sgu25_ktpm-lab03_cpp_tests/build/max_test [==[--gtest_filter=FindMaxTest.TwoEqualMax]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[FindMaxTest.TwoEqualMax]=]  PROPERTIES WORKING_DIRECTORY /workspaces/sgu25-ktpm/lab3/sgu25_ktpm-lab03_cpp_tests/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  max_test_TESTS FindMaxTest.DifferentValues FindMaxTest.EqualValues FindMaxTest.TwoEqualMax)

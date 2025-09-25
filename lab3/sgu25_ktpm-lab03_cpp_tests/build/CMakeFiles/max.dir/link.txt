@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/max.dir/src/max_app.cpp.o -o max  libmylib.a 

@@ -1,0 +1,3 @@
+/workspaces/sgu25-ktpm/lab3/sgu25_ktpm-lab03_cpp_tests/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+/workspaces/sgu25-ktpm/lab3/sgu25_ktpm-lab03_cpp_tests/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/workspaces/sgu25-ktpm/lab3/sgu25_ktpm-lab03_cpp_tests/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir
