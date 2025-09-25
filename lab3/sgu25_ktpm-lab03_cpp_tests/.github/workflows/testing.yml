@@ -4,9 +4,9 @@ name: CMake on a single platform
 
 on:
   push:
-    branches: [ "lab3_cpptests" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "lab3_cpptests" ]
+    branches: [ "main" ]
 
 env:
   # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
